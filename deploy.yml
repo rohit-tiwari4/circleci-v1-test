@@ -1,0 +1,16 @@
+name: rohit-tiwari-rohit
+image: docker.mdl.cloud/rohit_tiwari/rohit
+
+tags:
+  - public
+
+migrate:
+  cmd: /app/migrate.sh
+
+service:
+  container:
+    count: 1
+   ports:
+     - "8080"
+     - "80"
+
