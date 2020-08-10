@@ -28,3 +28,4 @@ jobs:
 notify:
   webhooks:
     - url: https://deployer.mdl.cloud/trigger
+
